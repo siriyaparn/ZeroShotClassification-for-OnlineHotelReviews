@@ -21,3 +21,9 @@ Before analyzing data, we have done the pre-processing data and transformed data
 - The reviews which a rating score from customers equal to 4 to 5 as positive reviews to represent customer satisfaction 100 reviews: the customers are satisfied with the hotel
 - The reviews which a rating score from customers equal to 3 as neutral reviews to represent customer neutral 100 reviews: the hotel is equal to the customer expectations.
 - The reviews which a rating score from customers equal to 1 to 2 as negative reviews to represent customer satisfaction 100 reviews: the customers are dissatisfied with the hotel
+
+### Method
+1. Extract the customer reviews from the online platform
+2. Do the preprocessing and transform data into the proper form to analyze
+3. Identify the SERVQUAL dimensions by using zero-shot classification: the facebook/bart-large-mnli model as a single class classification
+4. Analyze the relationship between service quality and customer satisfaction by hotel classes
